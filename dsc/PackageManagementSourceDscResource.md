@@ -14,7 +14,7 @@ The **PackageManagementSource** resource in Windows PowerShell Desired State Con
 ## Syntax
 
 ```
-PSModule [string] #ResourceName
+PackageManagementSource [string] #ResourceName
 {
     Name = [string]
 	[ Ensure = [string] { Absent | Present }  ]
